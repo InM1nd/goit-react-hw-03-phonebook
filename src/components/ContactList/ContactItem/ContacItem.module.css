@@ -4,5 +4,14 @@
     align-items: center;
     height:20px;
     margin: 15px;
+}
+
+.contact__name{
     background-color: rgba(138, 185, 255, 0.671);
+    margin-right: 10px;
+}
+
+.contact__number{
+    background-color: rgba(138, 185, 255, 0.938);
+    margin-right: 10px;
 }

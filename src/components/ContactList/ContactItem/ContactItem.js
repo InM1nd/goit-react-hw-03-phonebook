@@ -5,8 +5,8 @@ const ContactItem = ({contact, onDelete}) => {
     const {id, name, number} = contact;
     return (
         <li className={style.contactItem}>
-            <p>{name}</p>
-            <p>{number}</p>
+            <p className={style.contact__name}>{name}</p>
+            <p className={style.contact__number}>{number}</p>
             <button type="button" id={id} onClick={evt => {onDelete(evt.target.id);}}>
                 Delete
             </button>
